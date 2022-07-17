@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C06646F287F5FBB00D0BDDF /* CoinDeskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06646E287F5FBB00D0BDDF /* CoinDeskResponse.swift */; };
+		9C066471287F647800D0BDDF /* TableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C066470287F647800D0BDDF /* TableViewCellModel.swift */; };
 		9CDF3546287E0465005ADF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF3545287E0465005ADF7C /* AppDelegate.swift */; };
 		9CDF3548287E0465005ADF7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF3547287E0465005ADF7C /* SceneDelegate.swift */; };
-		9CDF354A287E0465005ADF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF3549287E0465005ADF7C /* ViewController.swift */; };
-		9CDF354D287E0465005ADF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF354B287E0465005ADF7C /* Main.storyboard */; };
+		9CDF354A287E0465005ADF7C /* BitcoinPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF3549287E0465005ADF7C /* BitcoinPriceViewController.swift */; };
 		9CDF354F287E046B005ADF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF354E287E046B005ADF7C /* Assets.xcassets */; };
 		9CDF3552287E046B005ADF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF3550287E046B005ADF7C /* LaunchScreen.storyboard */; };
+		9CDF355A287E056C005ADF7C /* BitcoinPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF3559287E056C005ADF7C /* BitcoinPriceViewModel.swift */; };
+		9CDF355C287E18B8005ADF7C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF355B287E18B7005ADF7C /* TableViewCell.swift */; };
+		A166FBB4A345C9CE91E0D25A /* Pods_Bitcoin_Price.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9905A872A7A18538D8D73A42 /* Pods_Bitcoin_Price.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9905A872A7A18538D8D73A42 /* Pods_Bitcoin_Price.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin_Price.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C06646E287F5FBB00D0BDDF /* CoinDeskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDeskResponse.swift; sourceTree = "<group>"; };
+		9C066470287F647800D0BDDF /* TableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellModel.swift; sourceTree = "<group>"; };
 		9CDF3542287E0465005ADF7C /* Bitcoin Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDF3545287E0465005ADF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CDF3547287E0465005ADF7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CDF3549287E0465005ADF7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CDF354C287E0465005ADF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CDF3549287E0465005ADF7C /* BitcoinPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPriceViewController.swift; sourceTree = "<group>"; };
 		9CDF354E287E046B005ADF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CDF3551287E046B005ADF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CDF3553287E046B005ADF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDF3559287E056C005ADF7C /* BitcoinPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPriceViewModel.swift; sourceTree = "<group>"; };
+		9CDF355B287E18B7005ADF7C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E21D4FDA786C598828EE66FC /* Pods-Bitcoin Price.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin Price.release.xcconfig"; path = "Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price.release.xcconfig"; sourceTree = "<group>"; };
+		E44848648E48D7F93FA02AD2 /* Pods-Bitcoin Price.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin Price.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A166FBB4A345C9CE91E0D25A /* Pods_Bitcoin_Price.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56903D63FCD70A7F716BF829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9905A872A7A18538D8D73A42 /* Pods_Bitcoin_Price.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		748A685337D0DBEEADB6A526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E44848648E48D7F93FA02AD2 /* Pods-Bitcoin Price.debug.xcconfig */,
+				E21D4FDA786C598828EE66FC /* Pods-Bitcoin Price.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C06646D287F5EDD00D0BDDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C06646E287F5FBB00D0BDDF /* CoinDeskResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9CDF3539287E0465005ADF7C = {
 			isa = PBXGroup;
 			children = (
 				9CDF3544287E0465005ADF7C /* Bitcoin Price */,
 				9CDF3543287E0465005ADF7C /* Products */,
+				748A685337D0DBEEADB6A526 /* Pods */,
+				56903D63FCD70A7F716BF829 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +96,32 @@
 			children = (
 				9CDF3545287E0465005ADF7C /* AppDelegate.swift */,
 				9CDF3547287E0465005ADF7C /* SceneDelegate.swift */,
-				9CDF3549287E0465005ADF7C /* ViewController.swift */,
-				9CDF354B287E0465005ADF7C /* Main.storyboard */,
+				9C06646D287F5EDD00D0BDDF /* Model */,
+				9CDF355D287E1F67005ADF7C /* Cells */,
+				9CDF355E287E1FD1005ADF7C /* BitcoinPrice */,
 				9CDF354E287E046B005ADF7C /* Assets.xcassets */,
 				9CDF3550287E046B005ADF7C /* LaunchScreen.storyboard */,
 				9CDF3553287E046B005ADF7C /* Info.plist */,
 			);
 			path = "Bitcoin Price";
+			sourceTree = "<group>";
+		};
+		9CDF355D287E1F67005ADF7C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF355B287E18B7005ADF7C /* TableViewCell.swift */,
+				9C066470287F647800D0BDDF /* TableViewCellModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9CDF355E287E1FD1005ADF7C /* BitcoinPrice */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF3549287E0465005ADF7C /* BitcoinPriceViewController.swift */,
+				9CDF3559287E056C005ADF7C /* BitcoinPriceViewModel.swift */,
+			);
+			path = BitcoinPrice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CDF3556287E046B005ADF7C /* Build configuration list for PBXNativeTarget "Bitcoin Price" */;
 			buildPhases = (
+				3CCF0C03115E497D5582F69F /* [CP] Check Pods Manifest.lock */,
 				9CDF353E287E0465005ADF7C /* Sources */,
 				9CDF353F287E0465005ADF7C /* Frameworks */,
 				9CDF3540287E0465005ADF7C /* Resources */,
+				155CC876DD031233ADBF9A85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +186,64 @@
 			files = (
 				9CDF3552287E046B005ADF7C /* LaunchScreen.storyboard in Resources */,
 				9CDF354F287E046B005ADF7C /* Assets.xcassets in Resources */,
-				9CDF354D287E0465005ADF7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		155CC876DD031233ADBF9A85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CCF0C03115E497D5582F69F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitcoin Price-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CDF353E287E0465005ADF7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDF354A287E0465005ADF7C /* ViewController.swift in Sources */,
+				9CDF355C287E18B8005ADF7C /* TableViewCell.swift in Sources */,
+				9CDF354A287E0465005ADF7C /* BitcoinPriceViewController.swift in Sources */,
 				9CDF3546287E0465005ADF7C /* AppDelegate.swift in Sources */,
+				9CDF355A287E056C005ADF7C /* BitcoinPriceViewModel.swift in Sources */,
+				9C06646F287F5FBB00D0BDDF /* CoinDeskResponse.swift in Sources */,
+				9C066471287F647800D0BDDF /* TableViewCellModel.swift in Sources */,
 				9CDF3548287E0465005ADF7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9CDF354B287E0465005ADF7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CDF354C287E0465005ADF7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CDF3550287E046B005ADF7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +378,7 @@
 		};
 		9CDF3557287E046B005ADF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44848648E48D7F93FA02AD2 /* Pods-Bitcoin Price.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +389,9 @@
 				INFOPLIST_FILE = "Bitcoin Price/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +407,7 @@
 		};
 		9CDF3558287E046B005ADF7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21D4FDA786C598828EE66FC /* Pods-Bitcoin Price.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +418,9 @@
 				INFOPLIST_FILE = "Bitcoin Price/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
